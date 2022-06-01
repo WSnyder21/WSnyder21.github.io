@@ -1,0 +1,104 @@
+/* body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #83caff;
+    background-color:#000;
+  } */
+
+.logo {
+    font-size: 2em;
+    padding: 0 0.3em;
+    display: block;
+    float: left;
+    color: #4b244f;
+
+}
+
+.firstName {
+    font-size: 5em;
+    background-color: #4b244f;
+    color: #000;
+}
+
+.lastName {
+    font-size: 5em;
+    background-color: transparent;
+    color: #4b244f;
+}
+
+/* Set vendor-specific animation name and duration on .logo class */
+
+.logo {
+    -webkit-animation-name: fadein;
+    -webkit-animation-duration: 3s;
+    -moz-animation-name: fadein;
+    -moz-animation-duration: 3s;
+    -ms-animation-name: fadein;
+    -ms-animation-duration: 3s;
+    -o-animation-name: fadein;
+    -o-animation-duration: 3s;
+    animation-name: fadein;
+    animation-duration: 3s;
+}
+
+/* Set vendor-specific keyframes for animation on load 
+     Position and opacity are animated */
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-left: -250px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-moz-keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-left: -250px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-ms-keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-left: -250px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@-o-keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-left: -250px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-left: -250px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
