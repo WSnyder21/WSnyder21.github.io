@@ -37,10 +37,10 @@ section {
     align-items: center;
 }
 
-/* .section1 {
-    /* height: 1000px; */
-/* margin-top: 75px; */
-/* } */
+.section1 {
+    height: 1000px;
+    margin-top: 75px;
+}
 
 .section2 img,
 .section3 img {
