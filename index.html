@@ -16,20 +16,14 @@
 
 </head>
 
-<body class="d-flex text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
-            <div>
-
-                <nav class="nav nav-masthead justify-content-center float-md-right">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    <a class="nav-link" href="/bio">Bio</a>
-                    <a class="nav-link" href="/resume">Resume</a>
-                    <a class="nav-link" href="/projects">Projects</a>
-
-                </nav>
-            </div>
-        </header>
+<body class=" text-center text-white">
+    <nav class="nav nav-masthead sticky-md-top mx-5">
+        <a class="nav-link active" aria-current="page" href="/">Home</a>
+        <a class="nav-link" href="#experience">Resume</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <div class="cover-container w-100 h-100 p-3 mx-auto">
         <main class="px-3 ">
             <section class="section1">
                 <span class="logo firstName">Wesley</span>
@@ -58,7 +52,7 @@
                 </div>
             </section>
             <section class="section3">
-                <div class="container">
+                <div class="container" id="experience">
                     <div class="row">
                         <div class="col-md-6 p-5">
                             <hr data-aos="slide-right">
@@ -114,7 +108,7 @@
                 </div>
             </section>
             <section class="section4">
-                <div class="container">
+                <div class="container" id="resume">
                     <hr data-aos="zoom-in-up">
                     <h2 data-aos="zoom-out-left">Projects</h2>
                     <div class="row">
@@ -151,7 +145,7 @@
                 </div>
             </section>
 
-            <div class="container" id="contactContainer">
+            <div class="container" id="contact">
                 <div class="col-auto">
                     <h2 data-aos="flip-left">Contact Me</h2>
                     <form method="POST" action="https://formsubmit.co/wsfilosofee@gmail.com" name="contactform"
