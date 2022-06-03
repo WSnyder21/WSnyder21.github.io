@@ -10,10 +10,10 @@ body {
     background-position: center;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     /* background-color: black; */
 }
-
+    
 main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
