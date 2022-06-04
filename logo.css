@@ -10,19 +10,21 @@
     display: block;
     float: left;
     color: #4b244f;
-
+    border-radius: 3px;
 }
 
 .firstName {
     font-size: 5em;
     background-color: #4b244f;
     color: #000;
+        border-radius: 3px;
 }
 
 .lastName {
     font-size: 5em;
     background-color: transparent;
     color: #4b244f;
+        border-radius: 3px;
 }
 
 /* Set vendor-specific animation name and duration on .logo class */
