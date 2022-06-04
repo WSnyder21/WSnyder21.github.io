@@ -13,7 +13,7 @@ body {
     overflow-x: hidden;
     /* background-color: black; */
 }
-    
+
 main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
@@ -28,7 +28,7 @@ img {
 
 section {
     width: 100%;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     padding: 100px 0;
     /* block-size: 500px;
     margin-top: 100px; */
@@ -41,16 +41,16 @@ section {
     display: flex;
     height: 100vh;
     align-items: end;
-/*     margin-top: 75px; */
 }
 
 .section2 img,
 .section3 img {
     max-height: 500px;
+    justify-content: center;
 }
 
 /* .section4 {
-    display: block;
+    
 } */
 
 h1 {
@@ -61,7 +61,7 @@ h1 {
 h2 {
     font-size: 38px;
     margin-bottom: 25px;
-    background-color: #4b244f;
+    background-color: #4b244f80;
     color: #000;
 }
 
@@ -91,12 +91,6 @@ a:hover {
     color: #dc8de4;
 }
 
-.thumbnail {
-    width: 50px;
-    height: 65px;
-    margin-top: 10px;
-}
-
 #subhead {
     display: inline-block;
     background-color: #4b244f;
@@ -107,37 +101,25 @@ a:hover {
 
 .container {
     font-size: 2rem;
-    height: 800px;
-    /* align-items: flex-end; */
-    /* justify-content: end; */
-}
-
-.nav-masthead {
-    position: sticky;
-    top: 0;
-    align-self: flex-start;
+    /* height: 800px; */
 }
 
 .nav-link {
     padding: 0.25rem 0;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.5);
+    background-color: #4b244f;
+    color: black;
     margin-right: 1rem;
     border-bottom: 0.25rem solid transparent;
 }
 
 .nav-link:hover {
-    color: rgba(255, 255, 255, 0.5);
-    border-bottom-color: rgba(255, 255, 255, 0.5);
-}
-
-.nav-link.active {
+    background-color: none;
     color: white;
-    border-bottom-color: white;
 }
 
 .client-area {
-    padding: 150px 0 0;
+    padding: 137px 0 0;
 }
 
 #sliderSection {
