@@ -107,6 +107,10 @@ a:hover {
     /* height: 800px; */
 }
 
+nav {
+    z-index: 5;
+}
+
 .nav-link {
     padding: 0.25rem 0;
     font-weight: 700;
