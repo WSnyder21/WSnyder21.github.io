@@ -211,33 +211,32 @@
                 <div class="mt-5 p-3">
                     <hr data-aos="zoom-in-up">
                     <h2 data-aos="flip-left">Contact Me</h2>
-                    <form method="POST" action="https://formsubmit.co/76a5c14adedb01d1789ab02d35ced529" name="contactform"
-                        id="contactform" enctype="multipart/form-data">
+                    <form method="POST" action="https://formsubmit.co/76a5c14adedb01d1789ab02d35ced529"
+                        name="contactform" id="contactform" enctype="multipart/form-data">
                         <div class="col-auto">
-                            <label>
+                            <label for="name" type="hidden"></label>
                             <input data-aos="zoom-out-right" name="name" type="text" id="name" placeholder="Name"
-                                required></label>
+                                required>
                             <br>
-                            <label>
+                            <label for="email" type="hidden"></label>
                             <input data-aos="zoom-out-left" name="email" type="text" id="email" placeholder="Email"
-                                required></label>
+                                required>
                             <br>
-                            <label>
+                            <label for="phone" type="hidden"></label>
                             <input data-aos="zoom-out-right" name="phone" type="text" id="phone" size="30"
-                                placeholder="Phone"></label>
+                                placeholder="Phone">
                             <br>
                             <input type="hidden" name="_next" value="https://wsnyder21.github.io/contactSuccess.html">
                         </div>
                         <div class="col-auto">
                             <fieldset>
-                                <legend><span>Compose a message</span></legend>
+                                <label for="comments" type="hidden"></label>
                                 <textarea data-aos="zoom-out-left" name="comments" cols="40" rows="20" id="comments"
                                     placeholder="Message"></textarea>
                             </fieldset>
                         </div>
                         <div class="col-md-offset-1 col-md-10">
                             <fieldset>
-                                <legend><span>Submit contact form</span></legend>
                                 <button id="submit" value="Submit" type="submit" class="btn btn-dark btn-lg"
                                     data-aos="fade-up">Send
                                     Message</button>
